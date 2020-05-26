@@ -1,0 +1,6 @@
+{
+    "parent": "block/spruce_fence_gate",
+    "textures": {
+        "texture": "block/stripped_spruce_log_top"
+    }
+}

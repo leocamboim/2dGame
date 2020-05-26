@@ -1,0 +1,177 @@
+{	"parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "ambientocclusion": false,
+	"textures": {
+		"particle": "block/stripped_spruce_log_top",
+		"0": "block/stripped_spruce_log_top"
+	},
+	"elements": [
+		{
+			"name": "Pfahl 1",
+			"from": [6.6, 0, 1.2],
+			"to": [9.4, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 6.75, 16, 9.55], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [5.5, 0, 8.3, 16], "texture": "#0"},
+				"south": {"uv": [0, 6.75, 16, 9.55], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [5.75, 0, 8.55, 16], "texture": "#0"},
+				"up": {"uv": [10, 3.75, 12.8, 6.55], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10, 11.25, 12.8, 14.05], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pfahl Deko 1",
+			"from": [6.3, 0.1, 1.6],
+			"to": [9.7, 15.9, 3.6],
+			"faces": {
+				"north": {"uv": [6.75, 1.5, 9.75, 13.25], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7, 0, 9, 15.8], "texture": "#0"},
+				"south": {"uv": [6.75, 1.5, 9.75, 13.25], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7, 0, 9, 15.8], "texture": "#0"},
+				"up": {"uv": [6.75, 1.5, 9.75, 13.25], "texture": "#0"},
+				"down": {"uv": [6.75, 10.25, 8.75, 13.65], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Pfahl Deko2 1",
+			"from": [7, 0.1, 0.9],
+			"to": [9, 15.9, 4.3],
+			"faces": {
+				"north": {"uv": [0.25, 7, 16, 9], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6.75, 1.25, 9.75, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 7, 15.8, 9], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6.75, 1.25, 9.75, 13], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [5.5, 11.5, 8.9, 13.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6.75, 1.25, 9.75, 13], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Pfahl 2",
+			"from": [6.6, 0, 12.2],
+			"to": [9.4, 16, 15],
+			"faces": {
+				"north": {"uv": [0, 3.75, 16, 6.55], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 7, 16, 9.8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 3.75, 16, 6.55], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 7, 16, 9.8], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.25, 3.75, 3.05, 6.55], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10, 11.25, 12.8, 14.05], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pfahl Deko 2",
+			"from": [6.3, 0.1, 12.6],
+			"to": [9.7, 15.9, 14.6],
+			"faces": {
+				"north": {"uv": [7.25, 1.25, 9.5, 12.75], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7.25, 0, 9.25, 15.8], "texture": "#0"},
+				"south": {"uv": [7.25, 1.25, 9.5, 12.75], "texture": "#0"},
+				"west": {"uv": [7.25, 0, 9.25, 15.8], "texture": "#0"},
+				"up": {"uv": [7.25, 1.25, 9.5, 12.75], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7, 11, 9, 14.4], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Pfahl Deko2 2",
+			"from": [7, 0.1, 11.9],
+			"to": [9, 15.9, 15.3],
+			"faces": {
+				"north": {"uv": [0.25, 7.25, 16, 9.25], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7, 0, 9.25, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0.25, 7, 16, 9], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7, 0, 9.25, 13.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6, 11.75, 9.4, 13.75], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7, 0, 9.25, 13.5], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Latte 1",
+			"from": [7.3, 13, 0.1],
+			"to": [8.7, 14.4, 15.9],
+			"faces": {
+				"north": {"uv": [7, 0, 9, 13.5], "texture": "#0"},
+				"east": {"uv": [7, 0, 9, 13.5], "texture": "#0"},
+				"south": {"uv": [7, 0, 9, 13.5], "texture": "#0"},
+				"west": {"uv": [7, 0, 9, 13.5], "texture": "#0"},
+				"up": {"uv": [7, 0, 9, 13.5], "texture": "#0"},
+				"down": {"uv": [7, 0, 9, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte Deko 1",
+			"from": [7.1, 13.2, 0.15],
+			"to": [8.9, 14.2, 15.85],
+			"faces": {
+				"north": {"uv": [7.25, 0.25, 9.25, 13.75], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7.25, 0, 8.25, 15.7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.25, 0.25, 9.25, 13.75], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.25, 0.25, 8.25, 15.95], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7.25, 0.25, 9.25, 13.75], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7.25, 0.25, 9.25, 13.75], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte Deko2 1",
+			"from": [7.5, 12.8, 0],
+			"to": [8.5, 14.6, 16],
+			"faces": {
+				"north": {"uv": [7.25, 0, 9.05, 1], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7.25, 0, 9.25, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.25, 0, 9.25, 13.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.25, 0, 9.25, 13.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7.25, 0, 8.25, 16], "texture": "#0"},
+				"down": {"uv": [0, 7, 16, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte 2",
+			"from": [7.3, 5, 0.1],
+			"to": [8.7, 6.4, 15.9],
+			"faces": {
+				"north": {"uv": [0.5, 2.5, 2.5, 16], "texture": "#0"},
+				"east": {"uv": [0.5, 2.5, 2.5, 16], "texture": "#0"},
+				"south": {"uv": [0.5, 2.5, 2.5, 16], "texture": "#0"},
+				"west": {"uv": [0.5, 2.5, 2.5, 16], "texture": "#0"},
+				"up": {"uv": [0.5, 2.5, 2.5, 16], "texture": "#0"},
+				"down": {"uv": [0.5, 2.5, 2.5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte Deko 2",
+			"from": [7.1, 5.2, 0.15],
+			"to": [8.9, 6.2, 15.85],
+			"faces": {
+				"north": {"uv": [0.75, 2.5, 2.75, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7.5, 0.25, 8.5, 15.95], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0.75, 2.5, 2.75, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.5, 0.25, 8.5, 15.95], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.75, 2.5, 2.75, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0.75, 2.5, 2.75, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte Deko2 2",
+			"from": [7.5, 4.8, 0],
+			"to": [8.5, 6.6, 16],
+			"faces": {
+				"north": {"uv": [0.5, 2.5, 2.3, 3.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0.5, 2.5, 2.5, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0.5, 2.5, 2.5, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0.5, 2.5, 2.5, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7, 0, 8, 16], "texture": "#0"},
+				"down": {"uv": [0, 7, 16, 8], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

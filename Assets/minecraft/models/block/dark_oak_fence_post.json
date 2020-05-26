@@ -1,0 +1,35 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/dark_oak_trapdoor",
+		"0": "block/dark_oak_trapdoor"
+	},
+	"elements": [
+		{
+			"name": "Latte Süd",
+			"from": [6.75, 0, 6.5],
+			"to": [9.25, 14.775, 9.5],
+			"faces": {
+				"north": {"uv": [6.5, 1.25, 9, 16], "texture": "#0"},
+				"east": {"uv": [6.5, 1.25, 9.25, 16], "texture": "#0"},
+				"south": {"uv": [6.5, 1.25, 9, 16], "texture": "#0"},
+				"west": {"uv": [6.25, 1.25, 9.25, 16], "texture": "#0"},
+				"up": {"uv": [6.5, 6.25, 9, 9.25], "texture": "#0"},
+				"down": {"uv": [6.5, 6.25, 9, 9.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pfahl Süd",
+			"from": [6, 0, 7],
+			"to": [10, 16, 9],
+			"faces": {
+				"north": {"uv": [6.75, 0, 9.25, 16], "texture": "#0"},
+				"east": {"uv": [6.75, 0, 8.75, 16], "texture": "#0"},
+				"south": {"uv": [6.75, 0, 9.25, 16], "texture": "#0"},
+				"west": {"uv": [6.75, 0, 8.75, 16], "texture": "#0"},
+				"up": {"uv": [3.25, 6.75, 7.25, 8.75], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [3.25, 6.75, 7.25, 8.75], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

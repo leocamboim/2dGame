@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"particle": "block/stripped_spruce_log_top",
+		"0": "block/stripped_spruce_log_top"
+	},
+		"elements": [
+		{
+			"name": "Pfahl 1",
+			"from": [6.6, 0, 6.6],
+			"to": [9.4, 16, 9.4],
+			"faces": {
+				"north": {"uv": [6.25, 0, 9.05, 16], "texture": "#0"},
+				"east": {"uv": [6.75, 0, 9.55, 16], "texture": "#0"},
+				"south": {"uv": [6.75, 0, 9.55, 16], "texture": "#0"},
+				"west": {"uv": [6.25, 0, 9.05, 16], "texture": "#0"},
+				"up": {"uv": [0.25, 6.75, 3.05, 9.55], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6.75, 11.25, 9.55, 14.05], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Pfahl Deko 1",
+			"from": [6.3, 0.1, 7],
+			"to": [9.7, 15.9, 9],
+			"faces": {
+				"north": {"uv": [7, 1.75, 9.5, 13.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7.5, 0, 9.5, 15.8], "texture": "#0"},
+				"south": {"uv": [7, 1.75, 9.5, 13.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7, 0, 9, 15.8], "texture": "#0"},
+				"up": {"uv": [7, 1.75, 9.5, 13.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7, 1.75, 9.5, 13.5], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Pfahl Deko2 1",
+			"from": [7, 0.1, 6.3],
+			"to": [9, 15.9, 9.7],
+			"faces": {
+				"north": {"uv": [6.75, 1, 9.5, 12.75], "texture": "#0"},
+				"east": {"uv": [7, 0.75, 9.75, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.75, 0, 8.75, 15.8], "texture": "#0"},
+				"west": {"uv": [7, 0.25, 9.75, 12], "texture": "#0"},
+				"up": {"uv": [6.75, 1, 9.5, 12.75], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6.75, 1, 9.5, 12.75], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}
