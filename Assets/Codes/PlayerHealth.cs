@@ -6,13 +6,18 @@ public class PlayerHealth : MonoBehaviour
 {
     //public Transform pfHealthBar;
     public HealthBar healthBar;
+    HealthSystem healthSystem;
     void Start()
     {
-        HealthSystem healthSystem = new HealthSystem(100);
-
+        healthSystem = new HealthSystem(100);
         //Transform healthBarTransform = Instantiate(pfHealthBar, new Vector3(0, 10), Quaternion.identity);
         //HealthBar pfhealthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem);
-
+        healthSystem.SetHealth(70);
+    }
+    void Update()
+    {
+        healthBar.HealthSystem_OnHealthChanged();
+        //healthSystem.OnHealthChanged();
     }
 }
